@@ -1,0 +1,151 @@
+#container {
+    width: 734px;
+    height: 600px;
+    position: relative;
+    background: #BAB9BA;
+    border-style: solid;
+    border-color: dimgray;
+    margin-left: 50px;
+}
+
+#topStuff {
+    width: 750px;
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 100px;
+}
+
+
+#video {
+    height: 550px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50px;
+}
+
+#figure {
+    background-image: url("Pic.jpeg");
+    height: 550px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50px;
+    background-size: cover;
+}
+
+#image {
+    background-image: url("Pic.jpeg");
+    height: 550px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50px;
+    background-size: cover;
+}
+
+#image2 {
+    background-image: url("Pic3.jpeg");
+    height: 550px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50px;
+    background-size: cover;
+}
+
+#image3 {
+    background-image: url("Pic4.jpeg");
+    height: 550px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50px;
+    background-size: cover;
+}
+
+#image4 {
+    background-image: url("Pic5.jpeg");
+    height: 550px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50px;
+    background-size: cover;
+}
+
+#image5 {
+    background-image: url("Pic6.jpeg");
+    height: 550px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50px;
+    background-size: cover;
+}
+
+
+#line2 {
+    background-color: #B5B5B5;
+}
+
+
+
+#instructionsBar {
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    float: left;
+    text-align: center;
+}
+
+#feedbackBar {
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    float: right;
+    text-align: center;
+}
+
+#progressFrame {
+    border-style: solid;
+    border-color: dimgray;
+    width: 200px;
+    margin-left: 50px;
+}
+
+#progressBar {
+    height: 21px;
+    background-color: #BEBEBE;
+    width: 0%;
+}
+
+.ball {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.line {
+    position: absolute;
+}
+
+body {
+    font-family: "Avenir Next", "Helvetica Neue", Helvetica;
+}
+
+p {
+    font-family: "Avenir Next", "Helvetica Neue", Helvetica;
+    font-size: 90%;
+    white-space: pre-line;
+}
+
+.centerSpan {
+    font-family: "Avenir Next", "Helvetica Neue", Helvetica;
+    font-size: 90%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    white-space: pre-line;
+}

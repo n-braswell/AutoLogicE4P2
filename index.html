@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="style.css" media="all" charset="utf-8">
+    <script src="https://rawgit.com/allensarkisyan/VideoFrame/master/VideoFrame.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="definitions.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body onload="setUp()">
+    <div id="topStuff">
+        <p id="instructions">Instructions (1 of 4):<br>In this task, you will be using your keyboard to make responses. Press the '1' (one) key on your keyboard to see the next set of instructions. If nothing happens when you press the '1' key, this task will not work on your computer.</p>
+        <textarea id="feedbackBox" rows="4" cols="50" placeholder="Feedback here"></textarea><br>
+    </div>
+    <br>
+    <div id="container">
+        <div id="instructionsBar">
+            <span id="instructionsBarText" class="centerSpan">Press the '1' key on your keyboard</span>
+                    <button id="startButton" type="button" onclick="startTrials()">Start</button>
+        </div>
+        <div id="feedbackBar">
+            <span id="feedbackBarText" class="centerSpan">Feedback here</span> 
+        </div>
+        <div id="figure">
+        </div>    
+        <div id="image">    
+        </div>
+        <div id="image2">    
+        </div>
+        <div id="image3">    
+        </div>
+        <div id="image4">    
+        </div>
+        <div id="image5">    
+        </div>
+        <video id="video">
+            <source src="videos/horizontal_line.mp4" id="source" />
+        </video>       
+    </div>
+    <br>
+    <div id="progressFrame">
+        <div id="progressBar">Progress</div>
+    </div>
+
+</body>
+
+</html>
